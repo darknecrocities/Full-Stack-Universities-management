@@ -46,17 +46,17 @@ A full-stack Student Manager system with **Angular Frontend** and **ASP.NET Core
 ## 🔙 Backend (C# API)
 
 1. Navigate to backend folder
-   cd StudentManagerAPI
+   ```cd StudentManagerAPI```
 
 2. Set your connection string
    Open appsettings.json and modify:
-   "ConnectionStrings": {
+   ``` "ConnectionStrings": {
      "DefaultConnection": "Server=YOUR_SERVER;Database=StudentDB;Trusted_Connection=True;"
-   }
+   } ```
 
 3. Run the project
-   dotnet build
-   dotnet run
+  ``` dotnet build```
+  ``` dotnet run```
 
 4. API Endpoints:
    - GET /api/students – fetch all students
@@ -67,16 +67,16 @@ A full-stack Student Manager system with **Angular Frontend** and **ASP.NET Core
 ## 🔜 Frontend (Angular)
 
 # 1. Navigate to frontend folder
-   cd student-manager-angular
+  ``` cd student-manager-angular```
 
 # 2. Install dependencies
-   npm install
+   ```npm install```
 
 # 3. Start Angular server
-   ng serve
+   ```ng serve```
 
 # 4. Access App
-   Visit: http://localhost:4200
+   ```Visit: http://localhost:4200```
 
 ## 📝 Features
 
