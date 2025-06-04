@@ -1,5 +1,5 @@
 
-🎓 Student Manager Web App
+## 🎓 Student Manager Web App
 
 A full-stack Student Manager system with **Angular Frontend** and **ASP.NET Core C# Backend** using **SQL Server** and **ADO.NET** for database operations.
 
@@ -35,7 +35,7 @@ A full-stack Student Manager system with **Angular Frontend** and **ASP.NET Core
     ├── src/
     └── angular.json
 
-🚀 Getting Started
+## 🚀 Getting Started
 
 🛠 Prerequisites
 - Node.js
@@ -43,7 +43,7 @@ A full-stack Student Manager system with **Angular Frontend** and **ASP.NET Core
 - .NET 6+ SDK
 - SQL Server
 
-🔙 Backend (C# API)
+## 🔙 Backend (C# API)
 
 1. Navigate to backend folder
    cd StudentManagerAPI
@@ -64,21 +64,21 @@ A full-stack Student Manager system with **Angular Frontend** and **ASP.NET Core
    - PUT /api/students/{id} – update student
    - DELETE /api/students/{id} – delete student
 
-🔜 Frontend (Angular)
+## 🔜 Frontend (Angular)
 
-1. Navigate to frontend folder
+# 1. Navigate to frontend folder
    cd student-manager-angular
 
-2. Install dependencies
+# 2. Install dependencies
    npm install
 
-3. Start Angular server
+# 3. Start Angular server
    ng serve
 
-4. Access App
+# 4. Access App
    Visit: http://localhost:4200
 
-📝 Features
+## 📝 Features
 
 - ✅ Add, view, update, and delete students (CRUD)
 - ✅ Colorful and responsive form design
