@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "09BMND1+xXs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Arron\\Documents\\ultimate project\\backend\\StudentManagerAPI\\StudentManagerAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Arron\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.5\\microsoft.aspnetcore.openapi.9.0.5.nupkg.sha512",
+    "C:\\Users\\Arron\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
+    "C:\\Users\\Arron\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Arron\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Arron\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Arron\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Arron\\.nuget\\packages\\system.data.sqlclient\\4.9.0\\system.data.sqlclient.4.9.0.nupkg.sha512"
+  ],
+  "logs": []
+}

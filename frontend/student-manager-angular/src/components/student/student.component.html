@@ -1,0 +1,116 @@
+<h2>Student Manager</h2>
+
+<form (submit)="addStudent(); $event.preventDefault();" class="student-form">
+  <input [(ngModel)]="newStudent.firstName" name="firstName" placeholder="First Name" required />
+  <input [(ngModel)]="newStudent.lastName" name="lastName" placeholder="Last Name" required />
+  <input [(ngModel)]="newStudent.email" name="email" type="email" placeholder="Email" required />
+  <input [(ngModel)]="newStudent.phone" name="phone" placeholder="Phone" required />
+  <button type="submit">Add Student</button>
+</form>
+
+<ul class="student-list">
+  <li *ngFor="let s of students" class="student-item">
+    <span class="student-name">{{ s.firstName }} {{ s.lastName }}</span>
+    <span class="student-email">{{ s.email }}</span>
+    <span class="student-phone">{{ s.phone }}</span>
+    <button (click)="deleteStudent(s.id!)" class="delete-btn">Delete</button>
+  </li>
+</ul>
+
+<style>
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+
+  .student-form {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+
+  .student-form input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    width: 180px;
+  }
+
+  .student-form button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #2e86de;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .student-form button:hover {
+    background-color: #1b4f72;
+  }
+
+  .student-list {
+    list-style: none;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .student-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+  }
+
+  .student-name {
+    font-weight: 600;
+    width: 30%;
+  }
+  .student-email {
+    width: 30%;
+    color: #555;
+  }
+  .student-phone {
+    width: 20%;
+    color: #555;
+  }
+
+  .delete-btn {
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .delete-btn:hover {
+    background-color: #c0392b;
+  }
+
+  @media (max-width: 600px) {
+    .student-form {
+      flex-direction: column;
+      align-items: center;
+    }
+    .student-form input {
+      width: 90%;
+      margin-bottom: 10px;
+    }
+    .student-list {
+      max-width: 100%;
+    }
+    .student-item {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 5px;
+    }
+    .student-name, .student-email, .student-phone {
+      width: 100%;
+    }
+  }
+</style>

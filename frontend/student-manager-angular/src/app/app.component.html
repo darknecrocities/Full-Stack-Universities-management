@@ -1,0 +1,91 @@
+<style>
+  :host {
+    --primary: oklch(53.18% 0.28 296.97);
+    --secondary: oklch(69.02% 0.277 332.77);
+    --accent: oklch(61.42% 0.238 15.34);
+    --background: oklch(97% 0.005 270);
+    --text-dark: oklch(19.37% 0.006 300.98);
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+  }
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    background: var(--background);
+    color: var(--text-dark);
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    color: var(--primary);
+    margin-bottom: 1rem;
+  }
+
+  form {
+    background: white;
+    border: 2px solid var(--primary);
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 20px color-mix(in srgb, var(--primary) 15%, transparent);
+  }
+
+  label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: 600;
+  }
+
+  input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    border: 1px solid var(--accent);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+  }
+
+  button {
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    background: var(--primary);
+    border: none;
+    color: white;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  button:hover {
+    background: var(--secondary);
+  }
+</style>
+
+<main>
+  <h1>Student Manager</h1>
+  <form>
+    <label for="first-name">First Name:</label>
+    <input type="text" id="first-name" name="first-name" required />
+
+    <label for="last-name">Last Name:</label>
+    <input type="text" id="last-name" name="last-name" required />
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required />
+
+    <button type="submit">Add Student</button>
+  </form>
+</main>
