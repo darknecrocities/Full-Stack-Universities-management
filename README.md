@@ -24,7 +24,7 @@ A full-stack Student Manager system with **Angular Frontend** and **ASP.NET Core
 | Runtime    | Node.js, .NET 6+    |
 
 📦 Project Structure
-
+```
 /StudentManagerApp
 ├── StudentManagerAPI/         # C# ASP.NET Core Web API (Backend)
 │   ├── Controllers/
@@ -34,7 +34,7 @@ A full-stack Student Manager system with **Angular Frontend** and **ASP.NET Core
 └── student-manager-angular/   # Angular project (Frontend)
     ├── src/
     └── angular.json
-
+```
 ## 🚀 Getting Started
 
 🛠 Prerequisites
