@@ -94,5 +94,5 @@ A full-stack Student Manager system with **Angular Frontend** and **ASP.NET Core
 - 🐳 Dockerized deployment
 
 ✨ Credits
-Created by Rhonzkiee
-Email: parejasarronkian@gmail.com
+- Created by Rhonzkiee
+- Email: parejasarronkian@gmail.com
